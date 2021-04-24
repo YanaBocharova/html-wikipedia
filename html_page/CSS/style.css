@@ -1,0 +1,105 @@
+
+h1{
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+h2{
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+html, body {
+    font-family: 14px sans-serif;
+}
+
+a:link{
+    color: rgb(82, 122, 241);
+    
+}
+a:visited{
+    color: rgb(63, 63, 181);
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 10px sans-serif;
+}
+
+.ua-list{
+    list-style-type:decimal;
+    font-size: small;
+  
+}
+.ua-list-item{
+    list-style-type:none;
+    font-size: small;
+    margin:5px 0px;
+}
+
+.content{
+    border: 1px solid #3d7dc6;
+    background-color: #f8f9fa;
+    width:400px;
+    padding: .4em;
+
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+
+.infobox {
+    border: 1px solid #a2a9b1;
+    background: #f8f9fa;
+    margin-bottom: .5em;
+    margin-left: 1em;
+    padding: .4em;
+    float: right;
+    clear: right;
+    font-size: 80%;
+    width: 20em;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 1.5em;
+    border-collapse: separate;
+    border-spacing: 2px;
+} 
+td{
+    width: 100px;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+   .descriptionImage {
+        font-family: sans-serif;
+        font-size: x-small;
+        font-weight: bold;
+        width: 100px;
+        margin: 15px 15px;
+    }
+
+
+.firstHeading:before {
+    content: url(/static/images/mobile/copyright/wikipedia-wordmark-ru.svg);
+    display: block;
+    height: 16px;
+    left: -9999px;
+    line-height: 0;
+    margin-bottom: 20px;
+    position: absolute;
+    width: 129px;
+}
